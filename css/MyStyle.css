@@ -1,0 +1,67 @@
+﻿table {
+    border: 1px solid cyan;
+    border-collapse: collapse;
+    width: 350px;
+    margin: 20px auto;
+}
+
+th, td {
+    border-left: 1px solid cyan;
+    border-right: 1px solid cyan;
+    color: red;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #ffcc22;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: #ffaa33;
+}
+
+tbody td:hover {
+    background-color: #ffffff;
+}
+
+.indent {
+    color: black;
+    margin-left: 35px;
+}
+
+.myTitle {
+    text-align: center;
+}
+
+.myStar {
+    width: 55px;
+    height: 55px;
+}
+
+#starLabel {
+    text-align: center;
+    color: green;
+}
+
+.imgStatus {
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.imgControl {
+    float: right;
+    width: 24px;
+    margin-top: 5px;
+}
+
+    .imgControl:hover {
+        cursor: pointer;
+    }
+
+.dateLabel {
+    font-size:20px;
+    color:black;
+}
+
+.MyInput {
+    margin-top:12px;
+}
